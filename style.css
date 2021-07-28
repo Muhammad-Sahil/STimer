@@ -1,0 +1,49 @@
+.parent{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+ margin: auto;
+ margin-top: 30px;
+}
+.inst{
+    text-align: center;
+    margin-top: 20px;
+    color: crimson;
+    
+}
+h4{
+    text-decoration: underline;
+}
+
+.head{
+    margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   margin-right: 60px;
+   background-color: cadetblue;
+   text-align: center;
+
+   width: 100%;   
+}
+
+.h{
+    width: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+h1{
+    width: 62px;
+}
+
+
+
+
+@media(max-width : 700px){
+    .parent{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+}
