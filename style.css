@@ -36,7 +36,9 @@ h4{
 h1{
     width: 62px;
 }
-
+.btn:focus{
+    background-color:salmon;
+}
 
 
 
